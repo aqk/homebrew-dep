@@ -5,7 +5,7 @@ class Dep < Formula
   sha256 "76480889939579f43b62b9f0d960db717517e72cb265e14122b9766b62ef3827"
   license "MIT"
 
-  depends_on "python@3.x"
+  depends_on "python@3.11" => :build
   depends_on "git"
   depends_on "tar"
   depends_on "pytest" => :build
