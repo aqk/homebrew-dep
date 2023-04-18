@@ -8,7 +8,7 @@ class Dep < Formula
   depends_on "python@3.11" => :build
   depends_on "git"
   uses_from_macos "tar"
-  depends_on "pytest" => :build
+  # depends_on "pytest" => :build
 
   def install
     bin.install "dep.py"
